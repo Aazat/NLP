@@ -1,0 +1,11 @@
+{% extends "TextGeneration/base.html" %}
+{% block content %}
+<form target="_blank" method="get" action="http://127.0.0.1:8000/test" style="margin:2em ; font-size: large; display: block; ">
+    <label for="finput" style="display:block; margin: 20px">Enter text for prediction</label>
+    <input type="text" name="finput" value="sometext" id="finput" >
+
+    <label for="n_chars" style="display:block;margin: 20px">No. of character to generate</label>
+    <input type="number" name="n_chars" id="n_chars" value="50" >
+    <button type="submit" name="Submit" >Submit</button>
+</form>
+{% endblock content %}

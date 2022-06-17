@@ -1,0 +1,12 @@
+{% extends "TextGeneration/base.html" %}
+{% block content %}
+    <!-- <h1>Testing Page</h1> -->
+    <!-- <p>This is the Testing page of blog project</p> -->
+    <h1> String received is : {{finput}}</h1>
+    <h3> Predicted text is :</h3>
+    <textarea spellcheck="false" rows="5" cols="75" readonly="true" wrap="hard"
+    style="font-family: Georgia, serif; font-weight: 200; font-size: medium; color: rebeccapurple; 
+    font-family: 'Times New Roman', Times, serif;font-size: 2em;  border-radius: 5px;
+    border: 1px solid #ccc; box-shadow: 1px 1px 1px #999;"> 
+    {{result}}</textarea>
+{% endblock content %}

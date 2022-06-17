@@ -1,0 +1,37 @@
+body {
+    background-color: bisque;
+}
+
+.division1{
+    /* background-color: blue; */
+    margin-left: 25%;
+    /* padding: 100px; */
+    display: block;
+}
+
+.division2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    margin-left: 40%;
+    padding: 30px;
+    /* background-color: brown; */
+}
+
+#form1{
+    font-size: 100%;
+    /* margin-left: 50%; */
+    margin-top: 50px;
+}
+
+h1{
+    margin-left: 15%;
+}
+
+textarea{
+    font-size: 15pt;
+    margin: 10px;
+}
+#button1{
+    padding: 50px;
+    margin: 50px;
+}
